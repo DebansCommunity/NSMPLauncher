@@ -1,6 +1,6 @@
 {
   "name": "nsmplauncher",
-  "version": "1.0.2-nsmp",
+  "version": "1.0.3-nsmp",
   "productName": "NSMP Launcher",
   "description": "Modded Launcher for NSMP Minecraft server of debans.community",
   "author": "Nicolas Favre (https://github.com/norfair00/)",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/DebansCommunity/NSMPLauncher.git"
   }
 }
