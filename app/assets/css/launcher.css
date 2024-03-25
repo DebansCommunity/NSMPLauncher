@@ -283,6 +283,14 @@ body, button {
     margin-top: 10%;
 }
 
+#welcomeImageSealNSMP {
+    background: rgba(1, 2, 1, 0.5);
+    height: 125px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
 #welcomeHeader {
     font-family: 'Avenir Medium';
     text-align: center;
@@ -542,15 +550,15 @@ body, button {
     10%, 90% {
         transform: translate3d(-1px, 0, 0);
     }
-    
+
     20%, 80% {
         transform: translate3d(2px, 0, 0);
     }
-  
+
     30%, 50%, 70% {
         transform: translate3d(-4px, 0, 0);
     }
-  
+
     40%, 60% {
         transform: translate3d(4px, 0, 0);
     }
@@ -2863,6 +2871,12 @@ input:checked + .toggleSwitchSlider:before {
     border-radius: 50%;
 }
 
+#image_seal_nsmp {
+    height: 70px;
+    width: auto;
+    position: relative;
+}
+
 /* Logo container styles. */
 #image_seal_container {
     position: relative;
@@ -3426,7 +3440,7 @@ input:checked + .toggleSwitchSlider:before {
     top: 25px;
     display: none;
 }
- 
+
 /* Left side of launch details container, displays percentage and a divider. */
 #launch_details_left {
     display: flex;
